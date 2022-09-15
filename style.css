@@ -1,0 +1,97 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #444;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 1.5em;
+}
+/* ==== Utils ====== */
+.container {
+  max-width: 1120px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.text-primary {
+  color: maroon;
+}
+.btn-primary {
+  background: maroon;
+  border: 0;
+  border-radius: 0;
+  padding: 10px 20px;
+  color: #fff;
+  display: inline-block;
+  border-radius: 8px;
+}
+.btn-primary:hover {
+  box-shadow: 2px 2px 2px #dddd;
+}
+/* ===== Hero area ====== */
+
+.hero-area,
+.skills {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 10px;
+  align-items: center;
+}
+
+.hero-area ul {
+  display: flex;
+  margin: 0;
+  padding: 15px;
+}
+
+.hero-area ul li {
+  margin-right: 30px;
+}
+
+.hero-area .bio {
+  padding-top: 50px;
+  padding-right: 100px;
+}
+.hero-area .img-wrapper img {
+  object-fit: cover;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid #d0d0d0;
+}
+
+/* === skills === */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills span {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.my-skills {
+  width: 450px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+/* ==== contact  ==== */
+.contact {
+  text-align: center;
+  padding: 70px;
+  margin: 70px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
